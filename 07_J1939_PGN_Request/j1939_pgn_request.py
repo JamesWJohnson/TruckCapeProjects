@@ -10,7 +10,7 @@ import struct
 # Make it return a tuple of (scaled_engine_hours, scaled_engine_revolutions)
 
 
-# Create an instance of the J1939Driver class, no arguments. Save it as a variable named driver
+# Create an instance of the J1939Driver class, with the argument interface='can1'. Save it as a variable named driver
 
 
 # declare a list of PGNS to request containing the following:

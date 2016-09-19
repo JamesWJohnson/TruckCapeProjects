@@ -33,7 +33,7 @@ def format_pgn(pgn):
 # 4 with 2 in the format string
 
 
-#Create an instance of the J1939Driver class, no arguments. Save it as a variable named driver
+#Create an instance of the J1939Driver class, with the argument interface='can1'. Save it as a variable named driver
 
 
 for i in range(10):

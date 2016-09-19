@@ -33,8 +33,8 @@ def format_addr(addr):
     return "{:02x}".format(addr)
 
 
-#Create an instance of the J1939Driver class, no arguments. Save it as a variable named driver
-driver = J1939Driver.J1939Driver()
+#Create an instance of the J1939Driver class, with the argument interface='can1'. Save it as a variable named driver
+driver = J1939Driver.J1939Driver(interface='can1')
 
 for i in range(10):
     #This demonstrates a function that returns multiple values.

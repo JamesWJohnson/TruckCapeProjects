@@ -27,8 +27,8 @@ def decode_fee5(data):
 
     return (engine_hours_scaled, engine_revolutions_scaled)
 
-# Create an instance of the J1939Driver class, no arguments. Save it as a variable named driver
-driver = J1939Driver.J1939Driver()
+# Create an instance of the J1939Driver class, with the argument interface='can1'. Save it as a variable named driver
+driver = J1939Driver.J1939Driver(interface='can1')
 
 # declare a list of PGNS to request containing the following:
 # 0xfeeb (component ID), 0xfeec (VIN), 0xfee5 (Engine Hours + Engine Revolutions)
